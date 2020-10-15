@@ -22,7 +22,7 @@ All fields contained within the code lists are provided in English.
 
 ## Code Lists
 
-<table style="border: 1px solid #333;">
+<table style="width: 1000px">
   <tr>
     <th style="width: 10%;">Name</th>
 	<th style="width: 30%;">Description</th>
