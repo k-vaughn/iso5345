@@ -49,25 +49,29 @@ The following table identifies details about each identifier type. The precise m
   <tr>
   	<td>[ITS-AID](its-aid.md)</a></td>
   	<td>
+  		<table>
   			<tr><td>Architecture reference (O)</td></tr>
   			<tr><td>p-encoding (M)</td></tr>
-  			<tr><td>Specification (M)<br />(public access is conditional per policy)</td></tr>
+  			<tr><td>Specification (M, 1)</td></tr>
   			<tr><td>Uses (M)</td></tr>
-  			<tr><td>URL &#40;C)<br />(required for public specifications)</td></tr>
+  			<tr><td>URL &#40;C, 3)</td></tr>
+  		</table>
   	</td>
   	<td>
-  		<tr><td>ETSI 103 097</tr></td>
-  		<tr><td>ETSI 302 636-5-1</tr></td>
-  		<tr><td>IEEE 1609.2</tr></td>
-  		<tr><td>IEEE 1609.3</tr></td>
-  		<tr><td>ISO 16460</tr></td>
-  		<tr><td>EN ISO 17423 </tr></td>
-  		<tr><td>CEN ISO 17429</tr></td>
-  		<tr><td>ISO 21218</tr></td>
-  		<tr><td>ISO 22418</tr></td>
-  		<tr><td>ISO 24102-1</tr></td>
-  		<tr><td>ISO 24102-2</tr></td>
-  		<tr><td>ISO 29281-1</tr></td>
+  		<table>
+  		<tr><td>ETSI 103 097</td></tr>
+  		<tr><td>ETSI 302 636-5-1</td></tr>
+  		<tr><td>IEEE 1609.2</td></tr>
+  		<tr><td>IEEE 1609.3</td></tr>
+  		<tr><td>ISO 16460</td></tr>
+  		<tr><td>EN ISO 17423 </td></tr>
+  		<tr><td>CEN ISO 17429</td></tr>
+  		<tr><td>ISO 21218</td></tr>
+  		<tr><td>ISO 22418</td></tr>
+  		<tr><td>ISO 24102-1</td></tr>
+  		<tr><td>ISO 24102-2</td></tr>
+  		<tr><td>ISO 29281-1</td></tr>
+  		</table>
   	</td>
   	<td>INTEGER</td>
   	<td>Policies for ITS-AIDs</td>
@@ -75,10 +79,13 @@ The following table identifies details about each identifier type. The precise m
   <tr>
     <td>ITS-ATT</td>
     <td>
+		<table>
 			<tr><td>Specification (M)<br />(Public access required)</td></tr>
 			<tr><td>URL (M)</td></tr>
+		</table>
 	</td>
     <td>
+		<table>
 		<tr><td>ISO 16460</td></tr>
 		<tr><td>ISO 21218</td></tr>
 		<tr><td>ISO 22418</td></tr>
@@ -86,11 +93,16 @@ The following table identifies details about each identifier type. The precise m
 		<tr><td>ISO 24102-3</td></tr>
 		<tr><td>ISO 24102-4</td></tr>
 		<tr><td>ISO 24102-6</td></tr>
+		</table>
 	</td>
     <td>INTEGER (0..255)</td>
     <td>National Body Policy</td>
   </tr>
 </table>
+
+1 - Public access is conditional per Policy attribute
+2 - Public access is required
+3 - Required for public specifications
 
 
 
