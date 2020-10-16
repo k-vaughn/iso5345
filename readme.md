@@ -1,9 +1,7 @@
 # ISO 5345: ITS Identifier Code Lists - PROTOTYPE SITE
 This site is designed as a prototype of a future site that will publish the Identifier Code Lists recognized by International Organization for Standardization (ISO) Technical Committee (TC) 204, _Intelligent transport systems_ (ITS). The contents of the current site are intended to demonstrate how this site will work. **Values shown on this site are likely to contain a mixture of real and imaginary assignments and these values should not be considered normative in any way.**
 
-[Index](index.html)
-
-## ISO 5345 'Intelligent tranport systems – Identifiers'
+## Background
 
 Within information exchanges, there is often a need to unambiguously and concisely represent information. One way to achieve this is to define an identifier that can be used to map between a concise expression (e.g., an integer value) to a complex meaning (e.g., the reference to a country, a standard, a protocol). The identifier might be an integer, a hierarchical structure (e.g., an ASN.1 OBJECT IDENTIFIER), or any other concise representation of a more complex concept (e.g., a two-character country code). 
 
@@ -13,14 +11,11 @@ Separate code lists allow the same code (e.g., an integer value of '1') to be as
 
 Some code lists are relatively static and are only updated when the text of the standard is updated. However, within ITS, there are several code lists that need to be updated in a more timely manner. ISO/TC 204 developed ISO 5345 to define the process for maintaining code lists that need to be updated more frequently. This website provides [a prototype of what the official code lists might look like for] the official code lists that are maintained per ISO 5345.
 
-## Maintenance agency
+## List maintenance
 
 ISO has established a maintenance agency (MA) relevant to ISO 5345, which consists of members the ISO/TC 204. XXXXXX is the appointed Maintenance Agency Secretariat (MAS). XXXXXX has assigned “the accomplishment of the secretariat of the Maintenance Agency” and the undertaking of related tasks to YYYYYY. Among other things, YYYYYY (a __supra-national__ not-for-profit organization) is responsible for all communications with the public, including accepting applications for identifier assignments. More information on Maintenance Agencies for ISO standards can be found [here](https://www.iso.org/maintenance_agencies.html#5345).
 
 Interested parties who wish to request an identifier assignment in any of the code lists provided on this site are invited to email to zzzzzz@yyyyyy.org.
-
-## Use of language
-All fields contained within the code lists are provided in English.
 
 ## Identifier Types
 
