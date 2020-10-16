@@ -61,20 +61,20 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
   		</table>
   	</td>
   	<td>
-  		<ul>
-  		<li>ETSI 103 097</li>
-  		<li>ETSI 302 636-5-1</li>
-  		<li>IEEE 1609.2</li>
-  		<li>IEEE 1609.3</li>
-  		<li>ISO 16460</li>
-  		<li>EN ISO 17423 </li>
-  		<li>CEN ISO 17429</li>
-  		<li>ISO 21218</li>
-  		<li>ISO 22418</li>
-  		<li>ISO 24102-1</li>
-  		<li>ISO 24102-2</li>
-  		<li>ISO 29281-1</li>
-  		</ul>
+  		<table>
+  		<tr><td>ETSI 103 097</tr></td>
+  		<tr><td>ETSI 302 636-5-1</tr></td>
+  		<tr><td>IEEE 1609.2</tr></td>
+  		<tr><td>IEEE 1609.3</tr></td>
+  		<tr><td>ISO 16460</tr></td>
+  		<tr><td>EN ISO 17423 </tr></td>
+  		<tr><td>CEN ISO 17429</tr></td>
+  		<tr><td>ISO 21218</tr></td>
+  		<tr><td>ISO 22418</tr></td>
+  		<tr><td>ISO 24102-1</tr></td>
+  		<tr><td>ISO 24102-2</tr></td>
+  		<tr><td>ISO 29281-1</tr></td>
+  		</table>
   	</td>
   	<td>INTEGER</td>
   	<td>Policies for ITS-AIDs</td>
