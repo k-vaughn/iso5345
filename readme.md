@@ -28,7 +28,7 @@ All fields contained within the code lists are provided in English.
 
 ITS application identifier (ITS-AID)
 
-An ITS-AID provides a globally unique identifier for an ITS application specification. The specification for the ITS-AID identifier list is provided [here](its-aid-spec.md). 
+An ITS-AID provides a globally unique identifier for an ITS application specification. The list of ITS-AID values is provided [here](its-aid.md). 
 
 ### ITS-ATT
 
@@ -47,7 +47,7 @@ The following table identifies details about each identifier type. The precise m
 	<th>Policy</th>
   </tr>
   <tr>
-  	<td>ITS-AID</td>
+  	<td><a href="its-aid.md">ITS-AID</a></td>
   	<td>
   		<table>
   			<tr><td>Architecture reference (O)</td></tr>
