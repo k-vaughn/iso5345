@@ -30,16 +30,13 @@ ITS application identifier (ITS-AID)
 
 An ITS-AID provides a globally unique identifier for an ITS application specification. The specification for the ITS-AID identifier list is provided [here](its-aid-spec.md). 
 
-#### Special Attributes
+### ITS-ATT
 
-|The description should indicate an artefact from a recognized ITS reference architecture|
-|p-encoding (required)|
-|Specification (Required, Public access is conditional per policy)|
-|Uses (Required)|
-|URL (required for public specifications)|
+blah, blah, blah 
 
+## Specifications for Identifier Types
 
-
+The following table identifies details about each identifier type. The precise meaning of each column is defined in ISO 5345. Requests for new identifiers must provide values for all Special Attributes that are marked mandatory (M) or conditional (C), when the stated conditions apply.
 
 <table style="width: 1000px">
   <tr>
@@ -53,11 +50,11 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
   	<td>ITS-AID</td>
   	<td>
   		<table>
-  			<tr><td>Architecture reference (optional)</td></tr>
-  			<tr><td>>p-encoding (required)</td></tr>
-  			<tr><td>Specification (required)<br />(public access is conditional per policy)</td></tr>
-  			<tr><td>Uses (required)</td></tr>
-  			<tr><td>URL (required for public specifications)</td></tr>
+  			<tr><td>Architecture reference (O)</td></tr>
+  			<tr><td>>p-encoding (M)</td></tr>
+  			<tr><td>Specification (M)<br />(public access is conditional per policy)</td></tr>
+  			<tr><td>Uses (M)</td></tr>
+  			<tr><td>URL (C)<br />(required for public specifications)</td></tr>
   		</table>
   	</td>
   	<td>
@@ -81,21 +78,27 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
   </tr>
   <tr>
     <td>ITS-ATT</td>
-    <td>|Specification (Required, Public access is required)<br />URL (required)</td>
-    <td>|ISO 16460<br />ISO 21218<br />ISO 22418<br />ISO 24102-1<br />ISO 24102-3<br />ISO 24102-4<br />ISO 24102-6</td>
+    <td>
+		<table>
+			<tr><td>Specification (Required, Public access required)</td></tr>
+			<tr><td>URL (required)</td></tr>
+		</table>
+	</td>
+    <td>
+		<table>
+		<tr><td>ISO 16460</td></tr>
+		<tr><td>ISO 21218</td></tr>
+		<tr><td>ISO 22418</td></tr>
+		<tr><td>ISO 24102-1</td></tr>
+		<tr><td>ISO 24102-3</td></tr>
+		<tr><td>ISO 24102-4</td></tr>
+		<tr><td>ISO 24102-6</td></tr>
+		</table>
+	</td>
     <td>INTEGER (0..255)</td>
     <td>National Body Policy</td>
   </tr>
 </table>
-
-
-
-|Name|Description|Special Attributes|Standards|Syntax|Policy|
-|----|-----------|------------------|---------|------|------|
-|<h2>[ITS-AID](its-aid.md)</h2>|ITS application identifier: The specification or architecture reference should indicate the general service that is provided.|<ul><li>Ideally, the description should indicate an artefact from a recognized ITS reference architecture</li><li>p-encoding (required)</li><li>Specification (Required, Public access is conditional per policy)</li><li>Uses (Required)</li><li>URL (required for public specifications)</li></ul>|<ul><li>ETSI 103 097</li><li>ETSI 302 636-5-1</li><li>IEEE 1609.2</li><li>IEEE 1609.3</li><li>ISO 16460</li><li>EN ISO 17423 </li><li>CEN ISO 17429</li><li>ISO 21218</li><li>ISO 22418</li><li>ISO 24102-1</li><li>ISO 24102-2</li><li>ISO 29281-1</li></ul>|INTEGER|Policies for ITS-AIDs|
-|ITS-ATT|ITS access technology type: The specification must specify how it relates to ISO 21218.|Specification (Required, Public access is required)<br />URL (required)|ISO 16460<br />ISO 21218<br />ISO 22418<br />ISO 24102-1<br />ISO 24102-3<br />ISO 24102-4<br />ISO 24102-6|INTEGER (0..255)|National Body Policy|
-|ITS-FlowTypeID|
-
 
 
 
