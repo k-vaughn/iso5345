@@ -2,7 +2,6 @@
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | 0x00 | 0p00 | system |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
 | 0x01 | 0p01 | electronic-fee-collection |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
-|test1| test1|howdy|||||||
 | 0x02 | 0p02 | freight-fleet-management |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
 | 0x03 | 0p03 | public-transport |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
 | 0x04 | 0p04 | traffic-traveller-information |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
@@ -18,7 +17,6 @@
 | 0x0e | 0p0e | multi-purpose-payment |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
 | 0x0f | 0p0f | dsrc-resource-manager |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
 | 0x10 | 0p10 | after-theft-systems |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
-|Test2|Test2|Here I am|||
 | 0x11 | 0p11 | cruise-assist-highway-system |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
 | 0x12 | 0p12 | multi-purpose-information-system |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
 | 0x13 | 0p13 | multi-mobile-information-system |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
