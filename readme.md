@@ -53,9 +53,9 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
   	<td>ITS-AID</td>
   	<td>
   		<table>
-  			<tr><td>Artefact from an ITS reference architecture (optional)</td></tr>
+  			<tr><td>Architecture reference (optional)</td></tr>
   			<tr><td>>p-encoding (required)</td></tr>
-  			<tr><td>Specification (required, public access is conditional per policy)</td></tr>
+  			<tr><td>Specification (required)<br />(public access is conditional per policy)</td></tr>
   			<tr><td>Uses (required)</td></tr>
   			<tr><td>URL (required for public specifications)</td></tr>
   		</table>
