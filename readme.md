@@ -17,7 +17,7 @@ ISO has established a maintenance agency (MA) relevant to ISO 5345, which consis
 
 Interested parties who wish to request an identifier assignment in any of the code lists provided on this site are invited to email to zzzzzz@yyyyyy.org.
 
-## Identifier Types
+## Identifier types
 
 ### ITS-AID
 
@@ -29,7 +29,7 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
 
 blah, blah, blah 
 
-## Specifications for Identifier Types
+## Specifications for identifier types
 
 The following table identifies details about each identifier type. The precise meaning of each column is defined in ISO 5345. Requests for new identifiers must provide values for all Special Attributes that are marked mandatory (M) or conditional \(C), when the stated conditions apply.
 
