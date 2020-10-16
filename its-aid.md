@@ -27,7 +27,7 @@
 | 0x1e | 0p1e | private use |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
 | 0x1f | 0p1f |  |  | ISO/TC 204 | 2011-05-15 | allocated |  |  |
 | 0x20 | 0p20 | vehicle to vehicle safety and awareness |  |  | 2011-07-13 |  |  |  |
-|Test3|Test3|This one will be rejected||||
+|Test3|Test3|This one will be revised and then rejected||||
 | 0x21 | 0p21 | limited sensor vehicle to vehicle safety and awareness |  |  | 2011-07-13 |  |  |  |
 | 0x22 | 0p22 | rail vehicle safety and awareness |  |  | 2011-07-13 |  |  |  |
 | 0x23 | 0p23 | WAVE Security Management (IEEE 1609.2) |  |  | 2011-07-13 |  |  |  |
