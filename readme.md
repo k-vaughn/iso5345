@@ -36,7 +36,7 @@ blah, blah, blah
 
 ## Specifications for Identifier Types
 
-The following table identifies details about each identifier type. The precise meaning of each column is defined in ISO 5345. Requests for new identifiers must provide values for all Special Attributes that are marked mandatory (M) or conditional (C), when the stated conditions apply.
+The following table identifies details about each identifier type. The precise meaning of each column is defined in ISO 5345. Requests for new identifiers must provide values for all Special Attributes that are marked mandatory (M) or conditional \(C), when the stated conditions apply.
 
 <table style="width: 1000px">
   <tr>
@@ -50,10 +50,10 @@ The following table identifies details about each identifier type. The precise m
   	<td>[ITS-AID](its-aid.md)</a></td>
   	<td>
   			<tr><td>Architecture reference (O)</td></tr>
-  			<tr><td>>p-encoding (M)</td></tr>
+  			<tr><td>p-encoding (M)</td></tr>
   			<tr><td>Specification (M)<br />(public access is conditional per policy)</td></tr>
   			<tr><td>Uses (M)</td></tr>
-  			<tr><td>URL (C)<br />(required for public specifications)</td></tr>
+  			<tr><td>URL \(C)<br />(required for public specifications)</td></tr>
   	</td>
   	<td>
   		<tr><td>ETSI 103 097</tr></td>
@@ -75,8 +75,8 @@ The following table identifies details about each identifier type. The precise m
   <tr>
     <td>ITS-ATT</td>
     <td>
-			<tr><td>Specification (Required, Public access required)</td></tr>
-			<tr><td>URL (required)</td></tr>
+			<tr><td>Specification (M)<br />(Public access required)</td></tr>
+			<tr><td>URL (M)</td></tr>
 	</td>
     <td>
 		<tr><td>ISO 16460</td></tr>
