@@ -19,7 +19,7 @@ ISO has established a maintenance agency (MA) relevant to ISO 5345, which consis
 
 Interested parties who wish to request an identifier assignment in any of the code lists provided on this site are invited to email to zzzzzz@yyyyyy.org.
 
-## Use of langauge
+## Use of language
 All fields contained within the code lists are provided in English.
 
 ## Identifier Types
@@ -47,7 +47,7 @@ The following table identifies details about each identifier type. The precise m
 	<th>Policy</th>
   </tr>
   <tr>
-  	<td><a href="its-aid.md">ITS-AID</a></td>
+  	<td>[ITS-AID](its-aid.md)</a></td>
   	<td>
   		<table>
   			<tr><td>Architecture reference (O)</td></tr>
