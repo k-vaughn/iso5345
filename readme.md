@@ -43,7 +43,7 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
 
 <table style="width: 1000px">
   <tr>
-    <th>Name</th>
+    <th>Identifier Type</th>
 	<th>Special Attributes</th>
 	<th>Standards</th>
 	<th>Syntax</th>
@@ -51,7 +51,15 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
   </tr>
   <tr>
   	<td>ITS-AID</td>
-  	<td><ul><li>Artefact from an ITS reference architecture (optional)</li><li>p-encoding (required)</li><li>Specification (required, public access is conditional per policy)</li><li>Uses (required)</li><li>URL (required for public specifications)</li></ul></td>
+  	<td>
+  		<table>
+  			<tr><td>Artefact from an ITS reference architecture (optional)</td></tr>
+  			<tr><td>>p-encoding (required)</td></tr>
+  			<tr><td>Specification (required, public access is conditional per policy)</td></tr>
+  			<tr><td>Uses (required)</td></tr>
+  			<tr><td>URL (required for public specifications)</td></tr>
+  		</table>
+  	</td>
   	<td>
   		<ul>
   		<li>ETSI 103 097</li>
