@@ -24,6 +24,23 @@ All fields contained within the code lists are provided in English.
 
 ## Code Lists
 
+### ITS-AID
+
+#### Description
+
+ITS application identifier: The specification or architecture reference should indicate the general service that is provided.
+
+#### Special Attributes
+
+|The description should indicate an artefact from a recognized ITS reference architecture|
+|p-encoding (required)|
+|Specification (Required, Public access is conditional per policy)|
+|Uses (Required)|
+|URL (required for public specifications)|
+
+
+
+
 <table style="width: 1000px">
   <tr>
     <th style="width: 10%;">Name</th>
