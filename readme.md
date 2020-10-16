@@ -53,7 +53,7 @@ The following table identifies details about each identifier type. The precise m
   			<tr><td>p-encoding (M)</td></tr>
   			<tr><td>Specification (M)<br />(public access is conditional per policy)</td></tr>
   			<tr><td>Uses (M)</td></tr>
-  			<tr><td>URL \(C)<br />(required for public specifications)</td></tr>
+  			<tr><td>URL &#40;C)<br />(required for public specifications)</td></tr>
   	</td>
   	<td>
   		<tr><td>ETSI 103 097</tr></td>
