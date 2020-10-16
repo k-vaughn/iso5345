@@ -47,7 +47,7 @@ The following table identifies details about each identifier type. The precise m
 	<th>Policy</th>
   </tr>
   <tr>
-  	<td>[ITS-AID](its-aid.md)</a></td>
+  	<td>[ITS-AID](its-aid.md)</td>
   	<td>
   		<table>
   			<tr><td>Architecture reference (O)</td></tr>
@@ -80,7 +80,7 @@ The following table identifies details about each identifier type. The precise m
     <td>ITS-ATT</td>
     <td>
 		<table>
-			<tr><td>Specification (M)<br />(Public access required)</td></tr>
+			<tr><td>Specification (M, 2)</td></tr>
 			<tr><td>URL (M)</td></tr>
 		</table>
 	</td>
@@ -101,7 +101,9 @@ The following table identifies details about each identifier type. The precise m
 </table>
 
 1 - Public access is conditional per Policy attribute
+
 2 - Public access is required
+
 3 - Required for public specifications
 
 
