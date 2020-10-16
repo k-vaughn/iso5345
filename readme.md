@@ -22,13 +22,13 @@ Interested parties who wish to request an identifier assignment in any of the co
 ## Use of langauge
 All fields contained within the code lists are provided in English.
 
-## Code Lists
+## Identifier Types
 
 ### ITS-AID
 
-#### Description
+ITS application identifier (ITS-AID)
 
-ITS application identifier: The specification or architecture reference should indicate the general service that is provided.
+An ITS-AID provides a globally unique identifier for an ITS application specification. The specification for the ITS-AID identifier list is provided [here](its-aid-spec.md). 
 
 #### Special Attributes
 
@@ -43,17 +43,15 @@ ITS application identifier: The specification or architecture reference should i
 
 <table style="width: 1000px">
   <tr>
-    <th style="width: 10%;">Name</th>
-	<th style="width: 30%;">Description</th>
-	<th style="width: 10%;">Special Attributes</th>
-	<th style="width: 10%;">Standards</th>
-	<th style="width: 10%;">Syntax</th>
-	<th style="width: 10%;">Policy</th>
+    <th>Name</th>
+	<th>Special Attributes</th>
+	<th>Standards</th>
+	<th>Syntax</th>
+	<th>Policy</th>
   </tr>
   <tr>
   	<td>ITS-AID</td>
-  	<td>ITS application identifier: The specification or architecture reference should indicate the general service that is provided.</td>
-  	<td><ul><li>Ideally, the description should indicate an artefact from a recognized ITS reference architecture</li><li>p-encoding (required)</li><li>Specification (Required, Public access is conditional per policy)</li><li>Uses (Required)</li><li>URL (required for public specifications)</li></ul></td>
+  	<td><ul><li>Artefact from an ITS reference architecture (optional)</li><li>p-encoding (required)</li><li>Specification (required, public access is conditional per policy)</li><li>Uses (required)</li><li>URL (required for public specifications)</li></ul></td>
   	<td>
   		<ul>
   		<li>ETSI 103 097</li>
@@ -75,7 +73,6 @@ ITS application identifier: The specification or architecture reference should i
   </tr>
   <tr>
     <td>ITS-ATT</td>
-    <td>ITS access technology type: The specification must specify how it relates to ISO 21218.</td>
     <td>|Specification (Required, Public access is required)<br />URL (required)</td>
     <td>|ISO 16460<br />ISO 21218<br />ISO 22418<br />ISO 24102-1<br />ISO 24102-3<br />ISO 24102-4<br />ISO 24102-6</td>
     <td>INTEGER (0..255)</td>
