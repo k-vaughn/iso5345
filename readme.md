@@ -42,7 +42,7 @@ The following table identifies details about each identifier type. The precise m
 	<th>Policy</th>
   </tr>
   <tr>
-  	<td>[ITS-AID](its-aid.md)</td>
+  	<td>ITS-AID</td>
   	<td>
   		<table>
   			<tr><td>Architecture reference (O)</td></tr>
