@@ -19,7 +19,7 @@ Interested parties who wish to request an identifier assignment in any of the co
 
 ## Identifier types
 
-### ITS-AID
+### [ITS-AID](its-aid.md)
 
 ITS application identifier (ITS-AID)
 
