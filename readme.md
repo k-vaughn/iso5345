@@ -25,14 +25,6 @@ ITS application identifier (ITS-AID)
 
 An ITS-AID provides a globally unique identifier for an ITS application specification. The list of ITS-AID values is provided [here](its-aid.md). 
 
-### ITS-ATT
-
-blah, blah, blah 
-
-## Specifications for identifier types
-
-The following table identifies details about each identifier type. The precise meaning of each column is defined in ISO 5345. Requests for new identifiers must provide values for all Special Attributes that are marked mandatory (M) or conditional \(C), when the stated conditions apply.
-
 <table style="width: 1000px">
   <tr>
     <th>Identifier Type</th>
@@ -70,6 +62,24 @@ The following table identifies details about each identifier type. The precise m
   	</td>
   	<td>INTEGER</td>
   	<td>Policies for ITS-AIDs</td>
+  </tr>
+</table>
+
+### ITS-ATT
+
+blah, blah, blah 
+
+## Specifications for identifier types
+
+The following table identifies details about each identifier type. The precise meaning of each column is defined in ISO 5345. Requests for new identifiers must provide values for all Special Attributes that are marked mandatory (M) or conditional \(C), when the stated conditions apply.
+
+<table style="width: 1000px">
+  <tr>
+    <th>Identifier Type</th>
+	<th>Special Attributes</th>
+	<th>Standards</th>
+	<th>Syntax</th>
+	<th>Policy</th>
   </tr>
   <tr>
     <td>ITS-ATT</td>
