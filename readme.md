@@ -19,22 +19,24 @@ Interested parties who wish to request an identifier assignment in any of the co
 
 ## Identifier types
 
+### General
+The following clauses define the identifier types maintained by this website and provide the details about what must be recorded for each identifier in a table. The precise meaning of each column of the table is defined in ISO 5345. Requests for new identifiers must provide values for all Special Attributes that are marked mandatory (M) or conditional \(C), when the stated conditions apply.
+
 ### [ITS-AID](its-aid.md)
 
 ITS application identifier (ITS-AID)
 
-An ITS-AID provides a globally unique identifier for an ITS application specification. The list of ITS-AID values is provided [here](its-aid.md). 
+An ITS-AID provides a globally unique identifier for an ITS application specification. Identifier values are defined per the rules contained in the following table. The list of ITS-AID values is provided [here](its-aid.md). 
 
 <table style="width: 1000px">
+	<caption>ITS-AID Definition</caption>
   <tr>
-    <th>Identifier Type</th>
 	<th>Special Attributes</th>
 	<th>Standards</th>
 	<th>Syntax</th>
 	<th>Policy</th>
   </tr>
   <tr>
-  	<td>ITS-AID</td>
   	<td>
   		<table>
   			<tr><td>Architecture reference (O)</td></tr>
@@ -69,20 +71,15 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
 
 blah, blah, blah 
 
-## Specifications for identifier types
-
-The following table identifies details about each identifier type. The precise meaning of each column is defined in ISO 5345. Requests for new identifiers must provide values for all Special Attributes that are marked mandatory (M) or conditional \(C), when the stated conditions apply.
-
 <table style="width: 1000px">
+	<caption>ITS-ATT Definition</caption>
   <tr>
-    <th>Identifier Type</th>
 	<th>Special Attributes</th>
 	<th>Standards</th>
 	<th>Syntax</th>
 	<th>Policy</th>
   </tr>
   <tr>
-    <td>ITS-ATT</td>
     <td>
 		<table>
 			<tr><td>Specification (M, 2)</td></tr>
