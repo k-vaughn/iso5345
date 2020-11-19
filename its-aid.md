@@ -3,6 +3,7 @@
 |ID (Hex)|p-encoding|Name|Description|Assignee|Updated|State|Specification|Uses|
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | 0x00 | 0p00 | system |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
+| have a nice day | field 2 |
 | test | test | test entry| | | |
 | 0x01 | 0p01 | electronic-fee-collection |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
 | 0x02 | 0p02 | freight-fleet-management |  | ISO/TC 204 | 2011-05-15 | assigned | ISO 15628 |  |
