@@ -43,20 +43,22 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
 	<caption>ITS-AID Definition</caption>
   <tr>
 	<th>Special Attributes</th>
-	<th>Standards</th>
-	<th>Datatype</th>
 	<th>Policy</th>
+	<th>Datatype</th>
+	<th>Standards</th>
   </tr>
   <tr>
   	<td>
   		<table>
   			<tr><td>Architecture reference (*O)</td></tr>
   			<tr><td>p-encoding (M)</td></tr>
-  			<tr><td>Specification (*M, 1)</td></tr>
+			<tr><td>Specification (*M, <abbr title="Public access is conditional per Policy attribute">Pub/Priv</abbr>)</td></tr>
   			<tr><td>Uses (*M)</td></tr>
-  			<tr><td>URL &#40;C, 3)</td></tr>
+			<tr><td>URL (C, <abbr title="Required for public specifications">Pub</abbr>)</td></tr>
   		</table>
   	</td>
+  	<td>Policies for ITS-AIDs</td>
+  	<td>INTEGER</td>
   	<td>
   		<table>
   		<tr><td>ETSI 103 097</td></tr>
@@ -73,8 +75,6 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
   		<tr><td>ISO 29281-1</td></tr>
   		</table>
   	</td>
-  	<td>INTEGER</td>
-  	<td>Policies for ITS-AIDs</td>
   </tr>
 </table>
 
@@ -86,17 +86,19 @@ blah, blah, blah
 	<caption>ITS-ATT Definition</caption>
   <tr>
 	<th>Special Attributes</th>
-	<th>Standards</th>
-	<th>Datatype</th>
 	<th>Policy</th>
+	<th>Datatype</th>
+	<th>Standards</th>
   </tr>
   <tr>
     <td>
 		<table>
-			<tr><td>Specification (M, 2)</td></tr>
+			<tr><td>Specification (M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
 			<tr><td>URL (M)</td></tr>
 		</table>
 	</td>
+    <td>National Body Policy</td>
+    <td>INTEGER (0..255)</td>
     <td>
 		<table>
 		<tr><td>ISO 16460</td></tr>
@@ -108,16 +110,9 @@ blah, blah, blah
 		<tr><td>ISO 24102-6</td></tr>
 		</table>
 	</td>
-    <td>INTEGER (0..255)</td>
-    <td>National Body Policy</td>
   </tr>
 </table>
 
-1 - Public access is conditional per Policy attribute
-
-2 - Public access is required
-
-3 - Required for public specifications
 
 
 
