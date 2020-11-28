@@ -44,7 +44,7 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
   <tr>
 	<th>Special Attributes</th>
 	<th>Standards</th>
-	<th>Syntax</th>
+	<th>Datatype</th>
 	<th>Policy</th>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ blah, blah, blah
   <tr>
 	<th>Special Attributes</th>
 	<th>Standards</th>
-	<th>Syntax</th>
+	<th>Datatype</th>
 	<th>Policy</th>
   </tr>
   <tr>
