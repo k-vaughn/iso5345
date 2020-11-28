@@ -1,32 +1,43 @@
-# ISO 5345: ITS Identifier Code Lists - PROTOTYPE SITE
-This site is designed as a prototype of a future site that will publish the Identifier Code Lists recognized by International Organization for Standardization (ISO) Technical Committee (TC) 204, _Intelligent transport systems_ (ITS). The contents of the current site are intended to demonstrate how this site will work. **Values shown on this site are likely to contain a mixture of real and imaginary assignments and these values should not be considered normative in any way.**
+# Registry of Intelligent Transport System Items (RITSI) - PROTOTYPE
+This site is designed as a prototype of a future site that will publish identifier assignments for registered items that are recognized by International Organization for Standardization (ISO) Technical Committee (TC) 204, _Intelligent transport systems_ (ITS). The contents of the current site are intended to demonstrate how this site will work. **Items and identifier values shown on this site are likely to contain a mixture of real and imaginary assignments and these values should not be considered normative in any way.**
 
 ## Background
 
-Within information exchanges, there is often a need to unambiguously and concisely represent information. One way to achieve this is to define an identifier that can be used to map between a concise expression (e.g., an integer value) to a complex meaning (e.g., the reference to a country, a standard, a protocol). The identifier might be an integer, a hierarchical structure (e.g., an ASN.1 OBJECT IDENTIFIER), or any other concise representation of a more complex concept (e.g., a two-character country code). 
+Within information exchanges, there is often a need to unambiguously and concisely represent information. One way to achieve this is to define an identifier (e.g., an integer value) that can be used to concisely represent a specific meaning (e.g., the reference to a country, a standard, a protocol). The identifier might be an integer, a hierarchical structure (e.g., an ASN.1 OBJECT IDENTIFIER), a textual name, or any other concise representation (e.g., a two-character country code). 
 
-The mappings of concise expressions to precise meanings is provided with the use of a code list. A code list is presented as a table with columns representing different attributes of each identifier and each row representing the assignment of a precise meaning to a specific identifier (i.e., concise expression). 
+The mappings of identifeirs to their precise meanings is provided by a list of registered items. A list of registered items is presented as a table with columns representing different attributes of each registered item and each row associating a specific registered item with its assigned identifier and other attributes (e.g. date of registration). 
 
-Separate code lists allow the same code (e.g., an integer value of '1') to be assigned different meanings in different contexts. ISO/TC 204 has identified the need for multiple code lists; it is the resposibility of each standard to identify the particualr code list to be used in any context that relies upon identifiers.
+Separate lists of registered items allow the same code (e.g., an integer value of '1') to be assigned different meanings in different contexts; these separate lists are known as item classes. ISO/TC 204 has identified the need for multiple item classes. Whenever a standard provides a field that can be used to reference a registered item, it must identify the item class (i.e., the specific list of registered items) to be used when populating the field.
 
-Some code lists are relatively static and are only updated when the text of the standard is updated. However, within ITS, there are several code lists that need to be updated in a more timely manner. ISO/TC 204 developed ISO 5345 to define the process for maintaining code lists that need to be updated more frequently. This website provides [a prototype of what the official code lists might look like for] the official code lists that are maintained per ISO 5345.
+Some lists of registered items are relatively static and are only updated when the text of the standard is updated. However, within ITS, several of these lists need to be updated in a more timely manner. ISO/TC 204 developed ISO 5345 to define the process for maintaining such lists. This website provides [a prototype of] the official lists of registered items that are maintained per ISO 5345.
 
 ## List maintenance
 
-ISO has established a maintenance agency (MA) relevant to ISO 5345, which consists of members the ISO/TC 204. XXXXXX is the appointed Maintenance Agency Secretariat (MAS). XXXXXX has assigned “the accomplishment of the secretariat of the Maintenance Agency” and the undertaking of related tasks to YYYYYY. Among other things, YYYYYY (a __supra-national__ not-for-profit organization) is responsible for all communications with the public, including accepting applications for identifier assignments. More information on Maintenance Agencies for ISO standards can be found [here](https://www.iso.org/maintenance_agencies.html#5345).
+This site is maintained according to the procedures defined in ISO 5345, _Intelligent transport systems – Identifiers – Processes_. This standard specifies that requests to modify any list of registered items within ITS is received by the ISO/TC 204 maintenance agency secretariat and forwarded to the designated maintenance agency for review. The maintenance agency develops a recommendation, which is then typically reviewed and approved by the full ISO/TC 204 membership. If any objections are made to the action proposed by the maintenance agency, the full membershop of ISO/TC 204 will discuss the request at their next plenary meeting and make a final decision. 
 
-Interested parties who wish to request an identifier assignment in any of the code lists provided on this site are invited to email to zzzzzz@yyyyyy.org.
+The maintenance agency consists of national experts from ISO/TC 204; the current maintenance agency secretariat is listed on teh [ISO maintenance agency website](https://www.iso.org/maintenance_agencies.html#5345). Parties who wish to request any change to the list of registered items may contact the maintenance agency secretariat listed for ISO 5345.
 
-## Identifier types
+## Item classes
 
 ### General
-The following clauses define the identifier types maintained by this website and provide the details about what must be recorded for each identifier in a table. The precise meaning of each column of the table is defined in ISO 5345. Requests for new identifiers must provide values for all Special Attributes that are marked mandatory (M) or conditional \(C), when the stated conditions apply.
+This website includes a number of distinct registered item listings; each listing is known as an item class. The following clauses provide the formal definition for each item class and a link to a page that lists the registered items for that item class. 
+
+The definition of each item class includes the identification of the attribuites that are associated with each item class. The attributes referenced within these definitions are defined in ISO 5345. Each attribute is marked as mandatory (M), conditional (C), or optional (O). Requests for registering new items within a list must specify the item class and all of the applicable attributes that are marked with an asterisk; the attributes not marked with an asterisk are provided by the maintenance agency.
+
+The following attributes are associated with registered items for all item classes.
+
+- ID (M)
+- Name (*M)
+- Description (*M)
+- Assignee (*M)
+- Registration Date (M)
+- State (M)
 
 ### [ITS-AID](its-aid.md)
 
 ITS application identifier (ITS-AID)
 
-An ITS-AID provides a globally unique identifier for an ITS application specification. Identifier values are defined per the rules contained in the following table. The list of ITS-AID values is provided [here](its-aid.md). 
+An ITS-AID provides a globally unique identifier for an ITS application specification. Registered items are defined per the rules contained in the following table. The list of ITS-AID registered items is provided [here](its-aid.md). 
 
 <table style="width: 1000px">
 	<caption>ITS-AID Definition</caption>
@@ -39,10 +50,10 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
   <tr>
   	<td>
   		<table>
-  			<tr><td>Architecture reference (O)</td></tr>
+  			<tr><td>Architecture reference (*O)</td></tr>
   			<tr><td>p-encoding (M)</td></tr>
-  			<tr><td>Specification (M, 1)</td></tr>
-  			<tr><td>Uses (M)</td></tr>
+  			<tr><td>Specification (*M, 1)</td></tr>
+  			<tr><td>Uses (*M)</td></tr>
   			<tr><td>URL &#40;C, 3)</td></tr>
   		</table>
   	</td>
