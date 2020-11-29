@@ -22,7 +22,7 @@ The maintenance agency consists of national experts from ISO/TC 204; the current
 ### General
 This website includes a number of distinct registered item listings; each listing is known as an item class. The following clauses provide the formal definition for each item class and a link to a page that lists the registered items for that item class. 
 
-The definition of each item class includes the identification of the attribuites that are associated with each item class. The attributes referenced within these definitions are defined in ISO 5345. Each attribute is marked as mandatory (M), conditional (C), or optional (O). Requests for registering new items within a list must specify the item class and all of the applicable attributes that are marked with an asterisk; the attributes not marked with an asterisk are provided by the maintenance agency.
+The definition of each item class includes the identification of the attribuites that are associated with each item class. The attributes referenced within these definitions are defined in ISO 5345. Each attribute is marked as mandatory (M), conditional (C), or optional (O). Requests for registering new items within a list must specify the item class and all of the applicable attributes that are marked with an asterisk; the attributes not marked with an asterisk are provided by the maintenance agency. **It is the responsibility of requesters to review the existing registered items to ensure that they are not duplicating assignments.**
 
 The following attributes are associated with registered items for all item classes.
 
@@ -50,7 +50,7 @@ An ITS-AID provides a globally unique identifier for an ITS application specific
   <tr>
   	<td>
   		<table>
-  			<tr><td>Architecture reference (*O)</td></tr>
+  			<tr><td>Service type (*O)</td></tr>
   			<tr><td>p-encoding (M)</td></tr>
 			<tr><td>Specification (*M, <abbr title="Public access is conditional per Policy attribute">Pub/Priv</abbr>)</td></tr>
   			<tr><td>Uses (*M)</td></tr>
