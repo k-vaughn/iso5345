@@ -84,7 +84,7 @@
 | 0x02.7d | 0p81.fd | Usage of SSM (ISO 19091); "TLC Status Service (SSEM)" | Previously referred to as "Traffic Light Control Service (TLC)"" and being part of ITS-AID=140 | ETSI | 2019-10-21 | assigned | [ETSI 103 301](https://www.etsi.org/deliver/etsi_ts/103300_103399/103301/01.03.01_60/ts_103301v010301p.pdf) |  |
 | 0x02.7e | 0p81.fe | VRU basic awareness service |  | ETSI | 2019-10-21 | assigned | ETSI 103 300 |  |
 | 0x02.7f | 0p81.ff | Collective perception service (CPS) |  | ETSI | 2019-10-21 | assigned | ETSI TS 103 324 |  |
-| 0x02.80 | 0p82.00 | Zone with specific radio conditions | TS under development | ETSI |  | assigned | ETSI TS 103 724 |  |
+| 0x02.80 | 0p82.00 | Interference Management Zone (IMZ) | TS under development | ETSI |  | assigned | ETSI TS 103 724 |  |
 | 0x02.81 | 0p82.01 | GTDM access control |  | CEN |  | assigned | [ISO 21184](https://www.iso.org/standard/70057.html) |  |
 | 0x02.82 … 0x06.4f | 0p82.00 … 0p85.cf |  | **reserved for future assignments by the CEN registrar** |  |  | allocated |  |  |
 | 0x06.50 | 0p85.d0 | TMS message set parser |  | CEN TC278 WG17 | 2017-12-11 | assigned | [CEN/TS 17241](https://shop.bsigroup.com/ProductDetail?pid=000000000030380105) |  |
