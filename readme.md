@@ -61,12 +61,12 @@ An ITS application identifier (ITS-AID) provides a globally unique identifier fo
   		<table>
   			<tr><td>Service type (*O)</td></tr>
   			<tr><td>p-encoding (M)</td></tr>
-			<tr><td>Specification (*M, <abbr title="Public access is conditional per Policy attribute">Pub/Priv</abbr>)</td></tr>
+			<tr><td>Specification (*M, <abbr title="Public access is required for identifier values less than 16,512">Pub/Priv</abbr>)</td></tr>
   			<tr><td>Uses (*M)</td></tr>
-			<tr><td>URL (C, <abbr title="Required for public specifications">Pub</abbr>)</td></tr>
+			<tr><td>URL (*C, <abbr title="Required for public specifications">Pub</abbr>)</td></tr>
   		</table>
   	</td>
-  	<td>Policies for ITS-AIDs</td>
+  	<td><a href="#general">General Policy</a></td>
   	<td>INTEGER</td>
   	<td>
   		<table>
@@ -107,7 +107,7 @@ An ITS access technology type (ITS-ATT) provides a globally unique identifier fo
 			<tr><td>URL (*M)</td></tr>
 		</table>
 	</td>
-    <td>Publicly available specification policy: The policy must define how the access technology relates to ISO 21218.</td>
+    <td><a href="#general">General Policy</a></td>
     <td>INTEGER (0..255)</td>
     <td>
 		<table>
@@ -143,7 +143,7 @@ An ITS flow type identifier (ITS-FlowTypeID) provides a globally unique identifi
 			<tr><td>URL (*M)</td></tr>
 		</table>
 	</td>
-    <td>Publicly available specification policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>INTEGER (0..65535)</td>
     <td>
 		<table>
@@ -170,12 +170,12 @@ An ITS logical channel identifier (ITS-LCHID) provides a globally unique identif
   <tr>
     <td>
 		<table>
-			<tr><td>Acronym (M)</td></tr>
+			<tr><td>Acronym (*M)</td></tr>
 			<tr><td>Specification (*M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
 			<tr><td>URL (*M)</td></tr>
 		</table>
 	</td>
-    <td>National body policy</td>
+    <td><a href="#national">National Body Policy</a></td>
     <td>INTEGER (0..65535)</td>
     <td>
 		<table>
@@ -204,12 +204,12 @@ An ITS message set identifier (ITS-MsgSetID) provides a globally unique identifi
     <td>
 		<table>
 			<tr><td>p-encoding (M)</td></tr>
-			<tr><td>Specification (C, <abbr title="Public access is required">Pub</abbr>)</td></tr>
-			<tr><td>URL (M)</td></tr>
+			<tr><td>Specification (*C, <abbr title="Public access is required for identifier values less than 16,512">Pub</abbr>)</td></tr>
+			<tr><td>URL (*M)</td></tr>
 		</table>
 	</td>
-    <td>Identifier values < 16512: National body policy<br />
-    Identifier values >= 16512: Publicly available specification policy</td>
+    <td>Identifier values < 16512: <a href="#national">National Body Policy</a><br />
+    Identifier values >= 16512: <a href="#general">General Policy</a></td>
     <td>INTEGER</td>
     <td>
 		<table>
@@ -240,7 +240,7 @@ An ITS organization identifier (ITS-OrgID) provides a globally unique identifier
 			<tr><td>URL (*M)</td></tr>
 		</table>
 	</td>
-    <td>General Policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>OBJECT IDENTIFIER</td>
     <td>
 		<table>
@@ -266,11 +266,11 @@ An ITS port number for the fast networking and transport layer protocol (ITS-PN-
   <tr>
     <td>
 		<table>
-			<tr><td>Specification (M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
-			<tr><td>URL (M)</td></tr>
+			<tr><td>Specification (*M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
+			<tr><td>URL (*M)</td></tr>
 		</table>
 	</td>
-    <td>Publicly available specification policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>INTEGER (0..65535)</td>
     <td>
 		<table>
@@ -297,10 +297,10 @@ An ITS policy region iidentifier (ITS-PRID) provides a globally unique identifie
   <tr>
     <td>
 		<table>
-			<tr><td>Boundaries (M)</td></tr>
+			<tr><td>Boundaries (*M)</td></tr>
 		</table>
 	</td>
-    <td>Governmental policy</td>
+    <td><a href="#national">National Body Policy</a></td>
     <td>OBJECT IDENTIFIER</td>
     <td>
 		<table>
@@ -325,11 +325,11 @@ An ITS access technology type (ITS-ATT) provides a globally unique identifier fo
   <tr>
     <td>
 		<table>
-			<tr><td>Specification (M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
-			<tr><td>URL (M)</td></tr>
+			<tr><td>Specification (*M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
+			<tr><td>URL (*M)</td></tr>
 		</table>
 	</td>
-    <td>Publicly available specification policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>OBJECT IDENTIFIER</td>
     <td>
 		<table>
@@ -358,10 +358,10 @@ An ITS access technology type (ITS-ATT) provides a globally unique identifier fo
   <tr>
     <td>
 		<table>
-			<tr><td>Protocols (M)</td></tr>
+			<tr><td>Protocols (*M)</td></tr>
 		</table>
 	</td>
-    <td>General Policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>INTEGER</td>
     <td>
 		<table>
@@ -395,10 +395,10 @@ Registered items are defined per the rules contained in the following table. The
   <tr>
     <td>
 		<table>
-			<tr><td>Boundaries (M)</td></tr>
+			<tr><td>Boundaries (*M)</td></tr>
 		</table>
 	</td>
-    <td>Governmental Policy</td>
+    <td><a href="#national">National Body Policy</a></td>
     <td>OBJECT IDENTIFER</td>
     <td>
 		<table>
@@ -425,7 +425,7 @@ An ITS station application process developer identifier (ITS-S-APDID) provides a
 		<table>
 		</table>
 	</td>
-    <td>General Policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>OBJECT IDENTIFIER</td>
     <td>
 		<table>
@@ -453,7 +453,7 @@ An ITS station application process provisioner identifier (ITS-S-APPID) provides
 		<table>
 		</table>
 	</td>
-    <td>General Policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>OBJECT IDENTIFIER</td>
     <td>
 		<table>
@@ -480,11 +480,11 @@ An ITS station managed service entity identifier (ITS-S-MSEID) provides a global
   <tr>
     <td>
 		<table>
-			<tr><td>Specification (M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
-			<tr><td>URL (M)</td></tr>
+			<tr><td>Specification (*M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
+			<tr><td>URL (*M)</td></tr>
 		</table>
 	</td>
-    <td>Publicly available specification policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>OBJECT IDENTIFIER</td>
     <td>
 		<table>
@@ -510,11 +510,11 @@ An ITS station managed service entity capability identifier (ITS-S-MSECID) provi
   <tr>
     <td>
 		<table>
-			<tr><td>Specification (M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
-			<tr><td>URL (M)</td></tr>
+			<tr><td>Specification (*M, <abbr title="Public access is required">Pub</abbr>)</td></tr>
+			<tr><td>URL (*M)</td></tr>
 		</table>
 	</td>
-    <td>Publicly available specification policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>OBJECT IDENTIFIER</td>
     <td>
 		<table>
@@ -542,7 +542,7 @@ An ITS station communications unit configuration management centre identifier (I
 		<table>
 		</table>
 	</td>
-    <td>General Policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>OBJECT IDENIFIER</td>
     <td>
 		<table>
@@ -570,7 +570,7 @@ An ITS station equipment manufacturer identifier (ITS-SEMID) provides a globally
 		<table>
 		</table>
 	</td>
-    <td>General policy</td>
+    <td><a href="#general">General Policy</a></td>
     <td>OBJECT IDENTIFIER</td>
     <td>
 		<table>
@@ -588,6 +588,15 @@ An ITS station equipment manufacturer identifier (ITS-SEMID) provides a globally
   </tr>
 </table>
 
+## Policies
+
+<a name="general"></a>
+###	General
+The general policy allows anyone to submit a request related to the item list.
+
+<a name="national"></a>
+###	National body policy
+The national body policy requires all requests related to the item list to be submitted by a P-member of ISO/TC 204.
 
 
 
