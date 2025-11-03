@@ -1,4 +1,4 @@
-[Home](readme.md)
+[Home](index.md)
 
 #RITSI Registered items: ITS-LCHID
 
@@ -11,4 +11,4 @@
 | 4   |SCH     |Service channel  |For exchange of peer to peer ITS-S application process data, and for general message dissemination. | ISO/TC 204|2018-05-01|assigned||
 | 5   |EcallCH     |eCall channel  |Channel between an eCall IVS and the most appropriate PSAP| ISO/TC 204|2019-09-02|assigned|[CEN/TS 17182](https://shop.bsigroup.com/ProductDetail/?pid=000000000030358960)|
 
-[Home](readme.md)
+[Home](index.md)
