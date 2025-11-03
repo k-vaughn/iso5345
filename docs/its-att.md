@@ -1,4 +1,4 @@
-[Home](readme.md)
+[Home](index.md)
 
 #RITSI Registered items: ITS-ATT
 
@@ -21,4 +21,4 @@
 | 254 |CAN     |CAN bus         |        |       |assigned|[ISO 11898](https://www.iso.org/standard/63648.html)  |     |
 | 255 |Ethernet|Ethernet       |        |       |assigned|[IEEE 802.3](https://standards.ieee.org/standard/802_3-2018.html) |     |
 
-[Home](readme.md)
+[Home](index.md)

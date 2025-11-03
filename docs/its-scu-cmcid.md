@@ -1,6 +1,6 @@
-[Home](readme.md)
+[Home](index.md)
 
-#RITSI Registered items: ITS-SEMID
+#RITSI Registered items: ITS-SCU-CMCID
 
 No entries have been defined for this item class.
 
@@ -9,4 +9,4 @@ No entries have been defined for this item class.
 |     |        |                                    |        |       |        |
 
 
-[Home](readme.md)
+[Home](index.md)

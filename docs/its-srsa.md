@@ -1,4 +1,4 @@
-[Home](readme.md)
+[Home](index.md)
 
 # RITSI Registered items: ITS-SRSA
 
@@ -68,4 +68,4 @@ Power Supply Enumerations
 - inputPowerError(3): the power supply is not receiving an acceptable power input.
 - powerSupplyFailure(4): the power supply is indicating a failure (e.g., not responding as it should, receiving acceptable input but unable to provide acceptable output)
 
-[Home](readme.md)
+[Home](index.md)

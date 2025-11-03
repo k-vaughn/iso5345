@@ -1,4 +1,4 @@
-[Home](readme.md)
+[Home](index.md)
 # RITSI Registered Items: ITS-AID
 
 |ID (Hex)|p-encoding|Name|Description|Assignee|Updated|State|Specification|Uses|
@@ -173,4 +173,4 @@
 | 0x10.20.40.7f | 0pef.ff.ff.ff | Error indicator "unknown / invalid ITS application" | Used in protocols within parameter fields carrying ITS-AID / PSID. | ISO/TC 204 |  | assigned | [ISO 22418](https://www.iso.org/standard/76968.html) |  |
 | \> 0x10.20.40.7f | \> 0pef.ff.ff.ff |  |  |  |  | reserved |  |  |
 
-[Home](readme.md)
+[Home](index.md)
