@@ -1,5 +1,8 @@
 [Home](index.md)
+
 # RITSI Registered Items: ITS-AID
+
+This list is identical to and coordinated with the [Provider Service Identifier (PSID) list](https://standards.ieee.org/products-programs/regauth/psid/public/) as maintained by IEEE.
 
 |ID (Hex)|p-encoding|Name|Description|Assignee|Updated|State|Specification|Uses|
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|

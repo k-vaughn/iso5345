@@ -1,7 +1,9 @@
 # Registry of Intelligent Transport System Items (RITSI)
+
 This site publishes identifier assignments for registered items that are recognized by the International Organization for Standardization (ISO) Technical Committee (TC) 204, _Intelligent transport systems_ (ITS). For more information about this site, see our [background](background.md) page.
 
 ## Request a New Identifier
+
 To request a new identifier, please use the following forms:
 
 - [Form](ITS-AID_Request_Form.pdf) to request a new ITS-AID assignment
@@ -11,7 +13,7 @@ To request a new identifier, please use the following forms:
 
 ### [ITS-AID](its-aid.md)
 
-An ITS application identifier (ITS-AID) provides a globally unique identifier for an ITS application specification. Registered items are defined per the rules contained in the following table. The list of ITS-AID registered items is provided [here](its-aid.md). 
+An ITS application identifier (ITS-AID) provides a globally unique identifier for an ITS application specification. Registered items are defined per the rules contained in the following table and value assignments are listed in the [ITS-AID registered items list](its-aid.md). This list is identical to and coordinated with the [Provider Service Identifier (PSID) list](https://standards.ieee.org/products-programs/regauth/psid/public/) managed by IEEE.
 
 <table style="width: 1000px">
 	<caption>ITS-AID Definition</caption>
